@@ -1,0 +1,54 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+**/build/
+
+# IntelliJ / Cursor / VS Code
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+out/
+
+# Compose / Kotlin
+.kotlin/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Local test data
+data/
+data-dev/
+*.bak
+
+# Lucene index (يُولَّد محلياً)
+lucene-index/
+
+# Apple
+.AppleDouble
+.LSOverride
+
+# JetBrains Fleet
+.fleet/
+
+# Compose Desktop generated MSI/DMG/DEB
+**/distributions/
+**/binaries/
+
+# Memory files (Claude's local context — not part of project)
+memory/
+
+# Claude Code local settings (per-user, not project-wide)
+.claude/settings.local.json
+
+# Gradle wrapper jar — uncomment if you want to commit it
+# !gradle/wrapper/gradle-wrapper.jar
+.github/workflows/
